@@ -1,0 +1,52 @@
+.test {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+div table {
+  margin-top: 50px;
+  font-size: larger;
+}
+
+td img {
+  width: 200px;
+  height: 200px;
+}
+
+.btn_count {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+
+.btn_count button {
+  background-color: rgb(125, 125, 230);
+  color: white;
+  font-weight: bold;
+  box-shadow: whitesmoke 0px 1px 0px 1px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.delete {
+  color: red;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.like {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+}
