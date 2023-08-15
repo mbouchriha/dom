@@ -70,7 +70,7 @@ function decrement(event) {
     var divEltMinus = btnMinus.parentElement;
     var quantityTagMinus = divEltMinus.querySelector("p");
     var quantityValueMinus = Number(quantityTagMinus.innerHTML);
-    if (quantityValueMinus > 0) {
+    if (quantityValueMinus > 1) {
         quantityValueMinus--;
         quantityTagMinus.innerHTML = quantityValueMinus;
         trEltMinus = divEltMinus.parentElement.parentElement;
